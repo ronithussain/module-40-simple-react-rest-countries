@@ -1,0 +1,17 @@
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+.flag-container img{
+    width: 150px;
+    height: 90px;
+    margin-right: 8px;
+}
+.visited{
+    background: turquoise;
+}
+.btn{
+    background: rgb(226, 128, 128);
+    color: white;
+}
